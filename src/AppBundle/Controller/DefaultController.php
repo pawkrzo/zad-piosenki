@@ -80,6 +80,13 @@ class DefaultController extends Controller
     /*
      * M
      */
+	 	    /**
+     * @Route("/piosenka-mury.html", name="piosenka-mury")
+     */
+    public function piosenkaMuryAction()
+    {
+        return $this->render('default/piosenka-mury.html.twig');
+    }
 
     /*
      * N
