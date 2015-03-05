@@ -60,7 +60,13 @@ class DefaultController extends Controller
     /*
      * I
      */
-
+    /**
+    * @Route("/Iridescent.html", name="iridescent")
+    */
+    public function iridescentAction()
+    {
+       return $this->render('default/Iridescent.html.twig');
+    }
      /**
      * @Route("/juvenile.html", name="juvenile")
      */
