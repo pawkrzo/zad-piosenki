@@ -33,9 +33,13 @@ class DefaultController extends Controller
      * B
      */
 
-    /*
-     * C
+    /**
+     * @Route("/ciagle_pada.html", name="ciagle-pada")
      */
+    public function  ciaglePadaAction()
+    {
+        return $this->render('default/ciagle_pada.html.twig');
+    }
 
     /*
      * D
