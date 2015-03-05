@@ -61,9 +61,13 @@ class DefaultController extends Controller
      * I
      */
 
-    /*
-     * J
+     /**
+     * @Route("/juvenile.html", name="juvenile")
      */
+    public function juvenileAction()
+    {
+        return $this->render('default/juvenile.html.twig');
+    }
 
     /*
      * K
