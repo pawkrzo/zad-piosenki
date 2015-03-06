@@ -45,6 +45,14 @@ class DefaultController extends Controller
      * D
      */
 
+    /**
+     * @Route("/Dreamer.html", name="Dreamer")
+     */
+    public function DreamerAction()
+    {
+        return $this->render('default/Dreamer.html.twig');
+    }
+    
     /*
      * E
      */
