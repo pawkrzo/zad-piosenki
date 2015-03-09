@@ -134,9 +134,13 @@ class DefaultController extends Controller
      * R
      */
 
-    /*
-     * S
+      /**
+     * @Route("/Stop.html", name="Stop")
      */
+    public function StopAction()
+    {
+        return $this->render('default/Stop.html.twig');
+    }
 
     /*
      * T
