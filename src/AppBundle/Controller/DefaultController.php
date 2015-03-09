@@ -94,6 +94,13 @@ class DefaultController extends Controller
     /*
      * L
      */
+    /**
+    * @Route("/lato.html", name="lato")
+    */
+    public function latoAction()
+    {
+    return $this->render('default/lato.html.twig');
+    }
 
     /*
      * M
