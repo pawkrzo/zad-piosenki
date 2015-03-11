@@ -32,6 +32,13 @@ class DefaultController extends Controller
     /*
      * B
      */
+    /**
+     * @Route("/ridingWithTheKing.html", name="Riding with the king")
+     */
+    public function ridingWithTheKingAction()
+    {
+        return $this->render('default/ridingWithTheKing.html.twig');
+    }
 
     /**
      * @Route("/ciagle_pada.html", name="ciagle-pada")
