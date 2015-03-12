@@ -102,9 +102,16 @@ class DefaultController extends Controller
         return $this->render('default/juvenile.html.twig');
     }
 
-    /*
-     * K
-     */
+   
+    /**
+ * @Route("/korowody.html", name="korowody")
+ */
+public function korowodyAction()
+{
+   
+    return $this->render('default/korowody.html.twig');
+}
+     
 
     /*
      * L
