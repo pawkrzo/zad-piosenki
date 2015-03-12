@@ -1,5 +1,6 @@
 Feature: Web pages
 
   Scenario: Piosenka Mury
-    Given I am on "piosenka-mury.html"
-    Then I should see "On natchniony i młody był"
+     Given I am on homepage
+      When I follow "Mury"
+      Then I should see "Śpiewał że blisko już świt."
