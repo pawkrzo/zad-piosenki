@@ -94,7 +94,13 @@ class DefaultController extends Controller
     /*
      * G
      */
-
+        /**
+ * @Route("/goradol.html", name="goradol")
+ */
+public function goradolAction()
+{
+    return $this->render('default/goradol.html.twig');
+}
     /*
      * H
      */
