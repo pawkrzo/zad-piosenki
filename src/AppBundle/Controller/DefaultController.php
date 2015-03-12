@@ -32,6 +32,14 @@ class DefaultController extends Controller
     /*
      * B
      */
+    
+    /**
+     * @Route("/balkanica.html", name="balkanica")
+     */
+    public function balkanicaAction()
+    {
+        return $this->render('default/balkanica.html.twig');
+    }
     /**
      * @Route("/ridingWithTheKing.html", name="Riding with the king")
      */
@@ -131,6 +139,11 @@ class DefaultController extends Controller
     {
         return $this->render('default/noMoreMrNiceGuy.html.twig');
     }
+    
+    
+    /*
+     * O
+     */
     
     /**
      * @Route("/onajestzesnu.html", name="onajestzesnu")
