@@ -63,6 +63,13 @@ class DefaultController extends Controller
     /*
      * E
      */
+    /**
+     * @Route("/endless.html", name="Endless")
+     */
+    public function endlessAction()
+    {
+        return $this->render('default/endless.html.twig');
+    }
 
     /*
      * F
