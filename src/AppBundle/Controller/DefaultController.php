@@ -40,6 +40,14 @@ class DefaultController extends Controller
     /*
      * B
      */
+    
+    /**
+     * @Route("/balkanica.html", name="balkanica")
+     */
+    public function balkanicaAction()
+    {
+        return $this->render('default/balkanica.html.twig');
+    }
     /**
      * @Route("/ridingWithTheKing.html", name="Riding with the king")
      */
@@ -146,6 +154,11 @@ public function korowodyAction()
     {
         return $this->render('default/noMoreMrNiceGuy.html.twig');
     }
+    
+    
+    /*
+     * O
+     */
     
     /**
      * @Route("/onajestzesnu.html", name="onajestzesnu")
