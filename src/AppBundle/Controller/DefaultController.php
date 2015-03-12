@@ -29,6 +29,14 @@ class DefaultController extends Controller
      * A
      */
 
+    /**
+     * @Route("/autobiografia.html", name="autobiografia")
+     */
+    public function  autobiografiaAction()
+    {
+        return $this->render('default/autobiografia.html.twig');
+    }
+
     /*
      * B
      */
