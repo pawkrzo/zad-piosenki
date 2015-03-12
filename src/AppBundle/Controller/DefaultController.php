@@ -132,9 +132,13 @@ class DefaultController extends Controller
         return $this->render('default/noMoreMrNiceGuy.html.twig');
     }
     
-    /*
-     * O
+    /**
+     * @Route("/onajestzesnu.html", name="onajestzesnu")
      */
+    public function onajestzesnuAction()
+    {
+        return $this->render('default/onajestzesnu.html.twig');
+    }
 
     /*
      * P
