@@ -192,8 +192,16 @@ public function korowodyAction()
     /*
      * R
      */
-
-      /**
+    
+    /**
+     * @Route("/rplayboys.html", name="rplayboys")
+     */
+    public function rplayboysAction()
+    {
+        return $this->render('default/rplayboys.html.twig');
+    }
+    
+    /**
      * @Route("/Stop.html", name="Stop")
      */
     public function StopAction()
