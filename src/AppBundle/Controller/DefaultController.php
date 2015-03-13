@@ -100,6 +100,7 @@ class DefaultController extends Controller
     /*
      * F
      */
+
     /**
      * @Route("/bystra-woda.html", name="bystra-woda")
      */
@@ -115,7 +116,7 @@ class DefaultController extends Controller
     {
         return $this->render('default/panie-janie.html.twig');
     }
-
+    
     /*
      * G
      */
@@ -129,6 +130,14 @@ public function goradolAction()
     /*
      * H
      */
+    
+     /**
+     * @Route("/we-are-the-champions.html", name="we-are-the-champions")
+     */
+    public function  wearethechampionsAction()
+    {
+        return $this->render('default/we-are-the-champions.html.twig');
+    }
 
     /*
      * I
