@@ -1,6 +1,7 @@
 Feature: Web pages
 
   Scenario: Endless
-    Given I am on "endless.html"
-    Then I should see "As the world turns round and round"
+	Given I am on homepage
+      When I follow "Endless"
+      Then I should see "Can you bring the sun in my way"
     
