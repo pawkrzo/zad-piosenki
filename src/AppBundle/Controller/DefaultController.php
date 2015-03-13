@@ -184,6 +184,14 @@ public function korowodyAction()
     /*
      * P
      */
+    
+     /**
+     * @Route("/pszczolka-maja.html", name="pszczolka-maja")
+     */
+      public function  pszczolkamajaAction()
+      {
+         return $this->render('default/pszczolka-maja.html.twig');
+      }
 
     /*
      * Q
