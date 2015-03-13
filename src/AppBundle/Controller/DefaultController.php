@@ -90,6 +90,13 @@ class DefaultController extends Controller
     /*
      * F
      */
+    /**
+     * @Route("/bystra-woda.html", name="bystra-woda")
+     */
+    public function  bystraWodaAction()
+    {
+        return $this->render('default/bystra-woda.html.twig');
+    }
 
     /*
      * G
