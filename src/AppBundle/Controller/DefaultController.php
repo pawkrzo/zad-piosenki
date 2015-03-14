@@ -235,6 +235,13 @@ public function korowodyAction()
         return $this->render('default/cash-hurt.html.twig');
     }
 
+    /**
+     * @Route("/qotsa-first.html", name="qotsa-first")
+     */
+    public function qotsafirstAction() {
+        return $this->render('default/qotsa-first.html.twig');
+    }
+
     /*
      * T
      */
