@@ -224,6 +224,17 @@ public function korowodyAction()
         return $this->render('default/Stop.html.twig');
     }
 
+    /**
+     * S
+     */
+
+    /**
+     * @Route("/cash-hurt.html", name="cash-hurt")
+     */
+    public function cashhurtAction() {
+        return $this->render('default/cash-hurt.html.twig');
+    }
+
     /*
      * T
      */
