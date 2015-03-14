@@ -231,7 +231,13 @@ public function korowodyAction()
     /*
      * W
      */
-
+/**
+ * @Route("/whisky.html", name="whisky")
+ */
+public function  whiskyAction()
+{
+    return $this->render('default/whisky.html.twig');
+}
     /*
      * X
      */
