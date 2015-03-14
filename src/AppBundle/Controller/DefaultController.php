@@ -257,6 +257,13 @@ public function  whiskyAction()
     /*
      * Z
      */
+/**
+ * @Route("/Senowarszawie.html", name="Senowarszawie")
+ */
+public function  SenowarszawieAction()
+{
+    return $this->render('default/Senowarszawie.html.twig');
+}
 
 
 }
