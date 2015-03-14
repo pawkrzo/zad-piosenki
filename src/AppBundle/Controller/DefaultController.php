@@ -97,6 +97,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/bystra-woda.html.twig');
     }
+    
+    /**
+    * @Route("/panie-janie.html", name="panie janie")
+    */
+    public function  panieJanieAction()
+    {
+        return $this->render('default/panie-janie.html.twig');
+    }
 
     /*
      * G
