@@ -285,7 +285,13 @@ public function  whiskyAction()
     /*
      * X
      */
-
+     /**
+     * @Route("/beat-it.html", name="beat-it")
+     */
+      public function  beatItAction()
+      {
+         return $this->render('default/beat-it.html.twig');
+      }
     /*
      * Y
      */
