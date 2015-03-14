@@ -63,6 +63,17 @@ class DefaultController extends Controller
     {
         return $this->render('default/ciagle_pada.html.twig');
     }
+    /*
+     * C
+     */
+/**
+* @Route("/rozkwitaly-paki-bialych.html",name="rozkwitaly-paki-bialych")
+*/
+    public function rozkwitalypakiAction()
+    {
+        return $this->render('default/rozkwitaly-paki-bialych.html.twig');
+    }
+
 
     /*
      * D
@@ -86,7 +97,6 @@ class DefaultController extends Controller
     {
         return $this->render('default/endless.html.twig');
     }
-
     /*
      * F
      */
