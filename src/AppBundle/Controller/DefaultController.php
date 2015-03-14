@@ -234,6 +234,24 @@ public function korowodyAction()
         return $this->render('default/Stop.html.twig');
     }
 
+    /**
+     * S
+     */
+
+    /**
+     * @Route("/cash-hurt.html", name="cash-hurt")
+     */
+    public function cashhurtAction() {
+        return $this->render('default/cash-hurt.html.twig');
+    }
+
+    /**
+     * @Route("/qotsa-first.html", name="qotsa-first")
+     */
+    public function qotsafirstAction() {
+        return $this->render('default/qotsa-first.html.twig');
+    }
+
     /*
      * T
      */
