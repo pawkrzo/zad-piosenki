@@ -244,12 +244,22 @@ public function korowodyAction()
     /*
      * Q
      */
+
       /**
      * @Route("/jolka.html", name="jolka")
      */
       public function  jolkaAction()
       {
          return $this->render('default/jolka.html.twig');
+      }
+      
+     /**
+     * @Route("/dziwny-jest-ten-swiat.html", name="dziwny-jest-ten-swiat")
+     */
+      public function  dziwnyJestTenSwiatAction()
+      {
+         return $this->render('default/dziwny-jest-ten-swiat.html.twig');
+
       }
 
     /*
