@@ -104,6 +104,16 @@ class DefaultController extends Controller
     {
         return $this->render('default/endless.html.twig');
     }
+    
+    
+     /**
+     * @Route("/plona-lasy.html", name="plona-lasy")
+     */
+    public function plonaAction()
+    {
+        return $this->render('default/plona-lasy.html.twig');
+    }
+    
     /*
      * F
      */
