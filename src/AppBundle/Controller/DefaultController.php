@@ -313,6 +313,14 @@ public function  whiskyAction()
      * Y
      */
 
+    /**
+     * @Route("/nie-placz-ewka.html", name="nieplaczewka")
+    */
+    public function  nieplaczewkaAction()
+    {
+    return $this->render('default/nie-placz-ewka.html.twig');
+    }
+
     /*
      * Z
      */
