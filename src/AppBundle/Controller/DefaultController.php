@@ -146,6 +146,13 @@ public function goradolAction()
         return $this->render('default/we-are-the-champions.html.twig');
     }
 
+/**
+     * @Route("/szklanka.html", name="szklanka")
+     */
+    public function  szklankaAction()
+    {
+        return $this->render('default/szklanka.html.twig');
+    }
     /*
      * I
      */
