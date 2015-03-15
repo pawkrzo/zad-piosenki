@@ -203,6 +203,13 @@ public function korowodyAction()
     {
         return $this->render('default/piosenka-mury.html.twig');
     }
+    /**
+     * @Route("/piosenka-miasto-budzi-sie.html", name="piosenka-miasto-budzi-sie")
+     */
+    public function piosenkaMiastoBudziSieAction()
+    {
+        return $this->render('default/piosenka-miasto-budzi-sie.html.twig');
+    }
 
     /*
      * N
