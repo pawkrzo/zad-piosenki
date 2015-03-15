@@ -210,6 +210,13 @@ public function korowodyAction()
     {
         return $this->render('default/piosenka-miasto-budzi-sie.html.twig');
     }
+    /**
+     * @Route("/piosenka-maps.html", name="piosenka-maps")
+     */
+    public function piosenkaMapsAction()
+    {
+        return $this->render('default/piosenka-maps.html.twig');
+    }
 
     /*
      * N
