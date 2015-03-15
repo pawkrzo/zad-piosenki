@@ -348,6 +348,13 @@ public function  whiskyAction()
     /*
      * Y
      */
+       /**
+     * @Route("/november-rain.html", name="november-rain")
+     */
+    public function novemberrainAction()
+    {
+        return $this->render('default/november-rain.html.twig');
+    }
 
     /**
      * @Route("/nie-placz-ewka.html", name="nieplaczewka")
