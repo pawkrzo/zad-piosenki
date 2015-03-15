@@ -297,6 +297,13 @@ public function korowodyAction()
      * V
      */
 
+    /**
+     * @Route("/sen-o-victorii.html", name="sen-o-victorii")
+     */
+    public function senOVictoriiAction() {
+        return $this->render('default/sen-o-victorii.html.twig');
+    }
+
     /*
      * W
      */
