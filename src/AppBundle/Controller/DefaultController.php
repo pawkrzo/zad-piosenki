@@ -495,7 +495,15 @@ public function  whiskyAction()
     {
     return $this->render('default/nie-placz-ewka.html.twig');
     }
-
+    
+    /**
+     * @Route("/nie-dokazuj.html", name="nie-dokazuj")
+     */
+    public function NieDokazujAction()
+    {
+        return $this->render('default/nie-dokazuj.html.twig');
+    }
+    
     /*
      * Z
      */
@@ -523,13 +531,7 @@ public function  SenowarszawieAction()
          return $this->render('default/kowarete-iku-sekai.html.twig');
      }
      
-     /**
-     * @Route("/nie-dokazuj.html", name="nie-dokazuj")
-     */
-    public function NieDokazujAction()
-    {
-        return $this->render('default/nie-dokazuj.html.twig');
-    }
+     
     /*
      * ZD
      */
