@@ -130,6 +130,13 @@ public function goradolAction()
      * H
      */
 
+/**
+     * @Route("/szklanka.html", name="szklanka")
+     */
+    public function  szklankaAction()
+    {
+        return $this->render('default/szklanka.html.twig');
+    }
     /*
      * I
      */
