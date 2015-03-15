@@ -264,6 +264,14 @@ public function korowodyAction()
      * T
      */
 
+    /**
+     * @Route("/dont-stop-believin.html", name="dont-stop-believin")
+     */
+    public function dontStopBelievinAction() {
+        return $this->render('default/dont-stop-believin.html.twig');
+    }
+
+
     /*
      * U
      */
