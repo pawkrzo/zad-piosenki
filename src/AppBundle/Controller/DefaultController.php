@@ -191,6 +191,15 @@ public function korowodyAction()
     return $this->render('default/korowody.html.twig');
 }
      
+   /**
+ * @Route("/kolorowe.html", name="kolorowe")
+ */
+public function koloroweAction()
+{
+   
+    return $this->render('default/kolorowe.html.twig');
+}
+    
 
     /*
      * L
