@@ -70,7 +70,24 @@ class DefaultController extends Controller
     {
         return $this->render('default/ridingWithTheKing.html.twig');
     }
-
+    
+    /**
+     * @Route("/biber.html", name="biber")
+     */
+    public function biberAction()
+    {
+        return $this->render('default/biber.html.twig');
+    }
+    
+    /**
+     * @Route("/hey-now.html", name="hey-now")
+     */
+    public function heynowAction()
+    {
+        return $this->render('default/hey-now.html.twig');
+    }
+    
+    
     /**
      * @Route("/ciagle_pada.html", name="ciagle-pada")
      */
