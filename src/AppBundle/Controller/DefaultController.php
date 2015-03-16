@@ -294,7 +294,16 @@ public function koloroweAction()
       {
          return $this->render('default/pszczolka-maja.html.twig');
       }
-
+      
+      /**
+       * 
+     * @Route("/Perfect.html", name="Perfect")
+     */
+    public function PerfectAction()
+    {
+        return $this->render('default/Perfect.html.twig');
+    }
+      
     /*
      * Q
      */
