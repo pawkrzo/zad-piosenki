@@ -23,6 +23,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/pani-twardowska.html.twig');
     }
+    
+    /**
+    * @Route("/wciaz-bardziej-obcy.html", name="wciaz-bardziej-obcy")
+    */
+    public function WciazBardziejObcyAction()
+    {
+        return $this->render('default/wciaz-bardziej-obcy.html.twig');
+    }
 
 
     /*
@@ -117,6 +125,7 @@ class DefaultController extends Controller
     /*
      * F
      */
+    
 
     /**
      * @Route("/bystra-woda.html", name="bystra-woda")
