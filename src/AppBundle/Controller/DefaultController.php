@@ -149,7 +149,13 @@ class DefaultController extends Controller
     /*
      * F
      */
-    
+    /**
+     * @Route("/riotka.html", name="riotka")
+     */
+    public function riotkaAction()
+    {
+        return $this->render('default/riotka.html.twig');
+    }
 
     /**
      * @Route("/bystra-woda.html", name="bystra-woda")
