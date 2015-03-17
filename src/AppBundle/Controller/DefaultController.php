@@ -469,4 +469,12 @@ public function  SenowarszawieAction()
    {
        return $this->render('default/what-i-ve-done.html.twig');
 }
+
+    /**
+     * @Route("/kowarete-iku-sekai.html", name="kowarete-iku-sekai")
+     */
+     public function kowareteikusekaiAction()
+     {
+         return $this->render('default/kowarete-iku-sekai.html.twig');
+     }
 }
