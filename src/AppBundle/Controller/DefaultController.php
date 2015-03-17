@@ -352,6 +352,14 @@ public function koloroweAction()
     }
     
     /**
+    * @Route("/lejde.html", name="lejde")
+    */
+    public function lejdeAction()
+    {
+        return $this->render('default/lejde.html.twig');
+    }
+    
+    /**
      * @Route("/Stop.html", name="Stop")
      */
     public function StopAction()
