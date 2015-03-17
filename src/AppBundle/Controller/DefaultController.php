@@ -16,6 +16,13 @@ class DefaultController extends Controller
         return $this->render('default/index.html.twig');
     }
 
+	/**
+	 * @Route("/bal_wszystkich_swietych.html", name="bal_wszystkich_swietych")
+	 */
+	public function balwszystkichswietychAction()
+	{
+	    return $this->render('default/bal_wszystkich_swietych.html.twig');
+	}
     /**
      * @Route("/pani-twardowska.html", name="pani-twardowska")
      */
