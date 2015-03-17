@@ -351,6 +351,15 @@ public function koloroweAction()
         return $this->render('default/rplayboys.html.twig');
     }
     
+    
+    /**
+     * @Route("/nasza_noc.html", name="nasza_noc")
+     */
+    public function nasza_nocAction()
+    {
+        return $this->render('default/nasza_noc.html.twig');
+    }
+    
     /**
      * @Route("/Stop.html", name="Stop")
      */
