@@ -521,4 +521,14 @@ public function  SenowarszawieAction()
      {
          return $this->render('default/kowarete-iku-sekai.html.twig');
      }
+    /*
+     * ZD
+     */
+    /**
+     * @Route("/na-co-komu.html", name="na-co-komu")
+     */
+    public function naCoKomuAction()
+    {
+        return $this->render('default/na-co-komu.html.twig');
+    }
 }
