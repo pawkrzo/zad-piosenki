@@ -43,6 +43,13 @@ class DefaultController extends Controller
     /*
      * A
      */
+	/**
+	 * @Route("/all_for_love.html", name="all_for_love")
+	 */
+	public function AllForLoveAction()
+	{
+	    return $this->render('default/all_for_love.html.twig');
+	}
 
     /**
      * @Route("/autobiografia.html", name="autobiografia")
