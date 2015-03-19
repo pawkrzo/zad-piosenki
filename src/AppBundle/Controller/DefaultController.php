@@ -173,6 +173,13 @@ class DefaultController extends Controller
         return $this->render('default/panie-janie.html.twig');
     }
     
+    /**
+     * @Route("/kiler.html", name="kiler")
+     */
+    public function kilerAction()
+    {
+        return $this->render('default/kiler.html.twig');
+    }
     /*
      * G
      */
