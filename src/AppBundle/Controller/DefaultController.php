@@ -38,8 +38,8 @@ class DefaultController extends Controller
     {
         return $this->render('default/wciaz-bardziej-obcy.html.twig');
     }
-
-
+    
+    
     /*
      * A
      */
@@ -50,6 +50,7 @@ class DefaultController extends Controller
 	{
 	    return $this->render('default/all_for_love.html.twig');
 	}
+        
 
     /**
      * @Route("/autobiografia.html", name="autobiografia")
@@ -494,7 +495,15 @@ public function  whiskyAction()
     {
     return $this->render('default/nie-placz-ewka.html.twig');
     }
-
+    
+    /**
+     * @Route("/nie-dokazuj.html", name="nie-dokazuj")
+     */
+    public function NieDokazujAction()
+    {
+        return $this->render('default/nie-dokazuj.html.twig');
+    }
+    
     /*
      * Z
      */
@@ -521,6 +530,8 @@ public function  SenowarszawieAction()
      {
          return $this->render('default/kowarete-iku-sekai.html.twig');
      }
+     
+     
     /*
      * ZD
      */
