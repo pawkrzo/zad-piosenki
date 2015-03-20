@@ -300,6 +300,16 @@ public function  SenowarszawieAction()
 {
     return $this->render('default/Senowarszawie.html.twig');
 }
+/*
+ * polakwyjatkowy
+ */
+/**
+ * @Route("/polak-wyjatkowy.html", name="polak-wyjatkowy")
+ */
+public function  polakwyjatkowyAction()
+{
+    return $this->render('default/polak-wyjatkowy.html.twig');
+}
 
 
 }
