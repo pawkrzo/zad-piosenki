@@ -407,6 +407,14 @@ public function koloroweAction()
     /**
      * S
      */
+    
+    /**
+    * @Route("/Stokrotka-rosla.html", name="Stokrotka rosla")
+    */
+    public function  Stokrotkarosla()
+    {
+        return $this->render('default/Stokrotka-rosla.html.twig');
+    }
 
     /**
      * @Route("/cash-hurt.html", name="cash-hurt")
