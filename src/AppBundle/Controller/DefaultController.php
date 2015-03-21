@@ -421,6 +421,13 @@ public function koloroweAction()
     public function qotsafirstAction() {
         return $this->render('default/qotsa-first.html.twig');
     }
+    /**
+    * @Route("/hero.html", name="hero")
+    */
+    public function heroAction()
+    {
+        return $this->render('default/hero.html.twig');
+    }
 
     /*
      * T
