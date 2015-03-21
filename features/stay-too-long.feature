@@ -1,8 +1,6 @@
-﻿Feature: Web pages
+Feature: Web pages
 
-  Scenario: Deja vu
+  Scenario: Stay too long
     Given I am on homepage
      When I follow "Stay too long"
      Then I should see "I know what's to come"
-
-
