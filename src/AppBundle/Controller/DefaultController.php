@@ -198,7 +198,20 @@ public function goradolAction()
 {
     return $this->render('default/goradol.html.twig');
 }
-    /*
+  
+// W pliku src/AppBundle/Controler/DefaultControler.php
+// dodajemy metodę
+
+
+/**
+ * @Route("/12stopni.html", name="12stopni")
+ */
+public function stopniAction()
+{
+    return $this->render('default/12stopni.html.twig');
+}
+/*
+     
      * H
      */
     
