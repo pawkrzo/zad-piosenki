@@ -345,7 +345,14 @@ public function koloroweAction()
     {
         return $this->render('default/Perfect.html.twig');
     }
-      
+     /**
+       * 
+     * @Route("/Power_Shift.html", name="Power_Shift")
+     */
+    public function Power_ShiftAction()
+    {
+        return $this->render('default/Power_Shift.html.twig');
+    }  
     /*
      * Q
      */
