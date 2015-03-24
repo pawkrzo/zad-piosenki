@@ -545,6 +545,14 @@ public function  SenowarszawieAction()
          return $this->render('default/kowarete-iku-sekai.html.twig');
      }
      
+     /**
+     * @Route("/ostatni-tabor.html", name="ostatni-tabor")
+     */
+     public function ostatniTaborAction()
+     {
+         return $this->render('default/ostatni-tabor.html.twig');
+     }
+     
      
     /*
      * ZD
