@@ -549,4 +549,11 @@ public function  SenowarszawieAction()
     {
         return $this->render('default/na-co-komu.html.twig');
     }
+    /**
+     * @Route("/Eachday.html", name="eachday")
+     */
+    public function EachdayAction()
+    {
+        return $this->render('default/Eachday.html.twig');
+    }
 }
