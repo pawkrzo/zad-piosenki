@@ -265,7 +265,14 @@ public function koloroweAction()
     {
     return $this->render('default/lato.html.twig');
     }
-
+    
+    /**
+     * @Route("/lato-jak-ze-snu.html", name="lato-jak-ze-snu")
+     */
+    public function  LatoJakZeSnuAction()
+    {
+        return $this->render('default/lato-jak-ze-snu.html.twig');
+    }
     
     /**
     * @Route("/maybe.html", name="maybe")
