@@ -147,6 +147,14 @@ public function  alabasterAction()
         return $this->render('default/Dreamer.html.twig');
     }
     
+    /**
+     * @Route("/deja-vu.html", name="deja-vu")
+     */
+    public function dejaVuAction()
+    {
+        return $this->render('default/deja-vu.html.twig');
+    }
+    
     /*
      * E
      */
@@ -456,6 +464,13 @@ public function koloroweAction()
      * S
      */
 
+	/**
+     * @Route("/stay-too-long.html", name="stay-too-long")
+     */
+    public function stayTooLongAction() {
+        return $this->render('default/stay-too-long.html.twig');
+    }
+    
     /**
      * @Route("/cash-hurt.html", name="cash-hurt")
      */
