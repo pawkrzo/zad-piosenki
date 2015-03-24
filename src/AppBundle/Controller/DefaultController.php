@@ -592,6 +592,14 @@ public function  SenowarszawieAction()
 {
     return $this->render('default/Senowarszawie.html.twig');
 }
+
+/**
+ * @Route("/Zapomnialem.html", name="Zapomnialem")
+ */
+public function  ZapomnialemAction()
+{
+    return $this->render('default/Zapomnialem.html.twig');
+}
 /*
  * polakwyjatkowy
  */
