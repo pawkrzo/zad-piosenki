@@ -39,7 +39,13 @@ class DefaultController extends Controller
         return $this->render('default/wciaz-bardziej-obcy.html.twig');
     }
     
-    
+        /**
+ * @Route("/alabaster.html", name="alabaster")
+ */
+public function  alabasterAction()
+{
+    return $this->render('default/alabaster.html.twig');
+}
     /*
      * A
      */
