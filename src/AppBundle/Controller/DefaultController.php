@@ -30,6 +30,13 @@ class DefaultController extends Controller
     {
         return $this->render('default/pani-twardowska.html.twig');
     }
+    /**
+     * @Route("/while.html", name="while")
+     */
+    public function whileAction()
+    {
+        return $this->render('default/while.html.twig');
+    }
     
     /**
     * @Route("/wciaz-bardziej-obcy.html", name="wciaz-bardziej-obcy")
