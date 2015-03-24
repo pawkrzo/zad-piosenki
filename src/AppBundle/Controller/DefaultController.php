@@ -364,6 +364,14 @@ public function koloroweAction()
       }
       
       /**
+     * @Route("/piosenka-powiedz.html", name="piosenka-powiedz")
+     */
+      public function  PowiedzAction()
+      {
+         return $this->render('default/piosenka-powiedz.html.twig');
+      }
+      
+      /**
        * 
      * @Route("/Perfect.html", name="Perfect")
      */
