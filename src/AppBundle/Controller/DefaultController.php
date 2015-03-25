@@ -653,4 +653,11 @@ public function  polakwyjatkowyAction()
     {
         return $this->render('default/Eachday.html.twig');
     }
+    /**
+     * @Route("/scarlett.html", name="scarlett")
+     */
+    public function scarlettAction()
+    {
+        return $this->render('default/scarlett.html.twig');
+    }
 }
