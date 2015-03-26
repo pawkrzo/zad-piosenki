@@ -130,6 +130,13 @@ public function  alabasterAction()
     {
         return $this->render('default/ciagle_pada.html.twig');
     }
+    /**
+     * @Route("/Truth.html", name="Truth")
+     */
+    public function  TruthAction()
+    {
+        return $this->render('default/Truth.html.twig');
+    }
     /*
      * C
      */
