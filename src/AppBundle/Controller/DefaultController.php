@@ -72,6 +72,13 @@ public function  alabasterAction()
     {
         return $this->render('default/autobiografia.html.twig');
     }
+     /**
+     * @Route("/Words_as_weapons.html", name="Words_as_weapons")
+     */
+    public function  Words_as_weaponsAction()
+    {
+        return $this->render('default/Words_as_weapons.html.twig');
+    }
     /**
      * @Route("/melodia-ulotna.html", name="melodia-ulotna")
      */
